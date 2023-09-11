@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -191,7 +194,7 @@ nav{
     display: grid;
     grid-template-columns:repeat(auto-fit , minmax(200px,1fr)) ;
     grid-gap: 30px;
-    margin-bottom: 30px;
+  
 }
 
 .stories div img{
@@ -208,8 +211,82 @@ nav{
     width: 80%;
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 50%;
     transform: translate(-50% , -50%);
     color: white;
     font-size: 26px;
 }
+
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/*------------about-msg----------*/
+
+.about-msg{
+    text-align: center;
+    margin: 83px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+
+/***********Footer*********/
+
+.footer{
+    margin: 80px 0;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background:#999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    padding-bottom: 15px;
+
+}
+
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: ' ';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:-12px;
+    border-radius: 2px;
+}
+
