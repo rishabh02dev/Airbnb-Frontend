@@ -410,3 +410,28 @@ nav .fas fa-bars{
     }
 
 }
+
+/*************Listing Page************/
+
+.navbar-white{
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-white .nav-links li a{
+    color: #000;
+
+}
+
+.navbar-white .register-btn{
+    background: #ff5361;
+    color: #fff;
+}
+
+nav .navbar-white .fa-bars{
+    color: #000;
+}
+
+.navbar-white .active::after{
+    background: #ff5361;
+}

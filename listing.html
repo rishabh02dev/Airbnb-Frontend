@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAYBNB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2756483374.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="navBar" class="navbar-white">
+        <img src="Staybnb-img/images/logo-red.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="#" class="active">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="#">Online Packages</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="container">
+
+        <div class="footer">
+            <a href="https://www.instagram.com/shukla.rishabh_"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/faujistan"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.twitter.com/tangocharlie2002"><i class="fab fa-twitter"></i></a>
+            <hr>
+            <p>Copyright @2023 Rishabh02dev</p>
+        </div>
+    </div>
+
+
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn() {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+
+
+</html>
