@@ -544,4 +544,46 @@ nav .navbar-white .fa-bars{
 
 .sidebar-link a{
     text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.pagination img{
+    width: 15px;
+    margin: 10px 20px ;
+}
+
+.right-arrow{
+    transform: rotate(180deg);
+}
+
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination .current{
+    background: #333;
+    color: #fff;
+
+}
+
+
+/**********Smaller Screen for Listing*********************/
+
+
+@media only screen and (max-width:700px){
+    
 }
